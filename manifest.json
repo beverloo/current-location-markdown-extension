@@ -1,0 +1,18 @@
+{
+  "name": "Current URL to Markdown link",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "A simple extension (mostly for my own use) for showing the Markdown code required to link to the current URL.",
+
+  "browser_action": {
+    // tag.png is part of the FamFamFam image suite by Mark James.
+    // http://www.famfamfam.com/
+    "default_icon": "tag.png",
+
+    "default_title": "Show Markdown",
+    "default_popup": "markdown.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
