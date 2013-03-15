@@ -8,7 +8,8 @@ chrome.tabs.getSelected(null, function(tab) {
 
   // Remove phrases from titles I don't care about, which just add extra cruft.
   var titlePhrasesToRemove = [
-    ' - An open-source browser project to help move the web forward. - Google Project Hosting'
+    ' - An open-source browser project to help move the web forward. - Google Project Hosting',
+    ' - An open-source project to help move the web forward. - Google Project Hosting'
   ];
 
   for (var index = 0, length = titlePhrasesToRemove.length; index < length; ++index)
